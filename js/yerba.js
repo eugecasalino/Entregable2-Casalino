@@ -130,7 +130,7 @@ function imprimirProductosEnHTML(array) {
     for (const yerba of array) {
         let card = document.createElement("div");
         card.innerHTML = `
-        <div class="card text-center" style="width: 12em;">
+        <div class="card text-center" style="width: 12em">
         <div class="card-body">
             <img src="${yerba.img}" class="card-img-top img-fluid" alt="">
             <h2 class="card-title">${yerba.marca}</h2>
